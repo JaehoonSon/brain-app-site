@@ -3,8 +3,10 @@ import { cn } from "@/lib/utils";
 
 export function Footer({ className }: { className?: string }) {
   return (
-    <footer className={cn("py-6 md:px-8 md:py-0 border-t mt-auto", className)}>
-      <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+    <footer
+      className={cn("w-full py-6 md:px-8 md:py-0 border-t mt-auto", className)}
+    >
+      <div className="container mx-auto flex flex-col items-center gap-4 md:h-24 md:flex-row md:justify-between ">
         <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by{" "}
           <a
@@ -17,7 +19,7 @@ export function Footer({ className }: { className?: string }) {
           </a>
           .
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4 justify-center md:justify-end">
           <Link
             href="/"
             className="text-sm font-medium underline underline-offset-4 text-muted-foreground hover:text-foreground"
@@ -35,6 +37,12 @@ export function Footer({ className }: { className?: string }) {
             className="text-sm font-medium underline underline-offset-4 text-muted-foreground hover:text-foreground"
           >
             Privacy
+          </Link>
+          <Link
+            href="/eula"
+            className="text-sm font-medium underline underline-offset-4 text-muted-foreground hover:text-foreground"
+          >
+            EULA
           </Link>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mx-auto">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
