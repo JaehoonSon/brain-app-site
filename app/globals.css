@@ -1,26 +1,254 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  /* Base Theme (Default) */
+  :root,
+  .theme-default {
+    /* Backgrounds */
+    --background: 34.3 87.5% 96.9%;
+    /* #fef8f0 */
+    --card: 37.5 76.2% 91.8%;
+    /* #faeeda */
+    --popover: 37.5 76.2% 91.8%;
+    /* #faeeda */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+    /* Text */
+    --foreground: 0 0% 20%;
+    /* dark grey */
+    --card-foreground: 0 0% 20%;
+    --popover-foreground: 0 0% 20%;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Brand colors */
+    /* Brand colors */
+    --primary: 21.9 94.6% 63.7%;
+    /* #fa8b4b */
+    --primary-foreground: 0 0% 100%;
+    /* white */
+    --primary-edge: 21.9 94.6% 45%;
+    /* DARKER #fa8b4b */
+
+    --secondary: 312 70.9% 49.8%;
+    /* #d925b5 */
+    --secondary-foreground: 0 0% 100%;
+    /* white */
+    --secondary-edge: 312 70.9% 35%;
+    /* DARKER #d925b5 */
+
+    --accent: 338.2 82.1% 60.6%;
+    /* #ed4884 */
+    --accent-foreground: 0 0% 100%;
+    /* white */
+    --accent-edge: 338.2 82.1% 45%;
+    /* DARKER #ed4884 */
+
+    /* Utility & borders */
+    --muted: 0 0% 83.1%;
+    /* light grey */
+    --muted-foreground: 0 0% 43.1%;
+    --destructive: 0 84.2% 60.2%;
+    /* red (unchanged) */
+    --destructive-foreground: 0 0% 100%;
+    --destructive-edge: 0 84.2% 45%;
+
+    --border: 0 0% 83.1%;
+    --input: 0 0% 83.1%;
+    --ring: 312 70.9% 49.8%;
+    /* primary */
+
+    /* Charts — using your palette in order */
+    --chart-1: 312 70.9% 49.8%;
+    /* primary */
+    --chart-2: 21.9 94.6% 63.7%;
+    /* secondary */
+    --chart-3: 338.2 82.1% 60.6%;
+    /* accent */
+    --chart-4: 37.5 76.2% 91.8%;
+    /* bg light #faeeda */
+    --chart-5: 34.3 87.5% 96.9%;
+    /* bg lighter #fef8f0 */
+
+    /* Sidebar (surface tinted like background) */
+    --sidebar: 34.3 87.5% 96.9%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 312 70.9% 49.8%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 338.2 82.1% 60.6%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 83.1%;
+    --sidebar-ring: 312 70.9% 49.8%;
+
+    /* Typography, radius, shadows (unchanged) */
+    /* --font-sans: Nunito_600SemiBold; */ /* Handled in layout.tsx */
+    /* --font-serif: Playfair Display, serif; */
+    /* --font-mono: Source Code Pro, monospace; */
+    --radius: 1rem;
+    /* More rounded */
+    --shadow-2xs: 0px 5px 10px -2px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 5px 10px -2px hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0px 5px 10px -2px hsl(0 0% 0% / 0.1),
+      0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+    --shadow: 0px 5px 10px -2px hsl(0 0% 0% / 0.1),
+      0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0px 5px 10px -2px hsl(0 0% 0% / 0.1),
+      0px 2px 4px -3px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0px 5px 10px -2px hsl(0 0% 0% / 0.1),
+      0px 4px 6px -3px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0px 5px 10px -2px hsl(0 0% 0% / 0.1),
+      0px 8px 10px -3px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 5px 10px -2px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+  }
+
+  /* Ocean Theme - Blue/Teal tones */
+  .theme-ocean {
+    /* Backgrounds */
+    --background: 210 50% 98%;
+    /* Very light blue */
+    --card: 210 50% 96%;
+    /* slightly darker blue */
+    --popover: 210 50% 96%;
+
+    /* Text */
+    --foreground: 222 47% 11%;
+    /* Deep blue */
+    --card-foreground: 222 47% 11%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Brand colors */
+    --primary: 199 89% 48%;
+    /* Bright Blue/Cyan */
+    --primary-foreground: 0 0% 100%;
+    --primary-edge: 199 89% 35%;
+
+    --secondary: 172 66% 50%;
+    /* Teal */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-edge: 172 66% 35%;
+
+    --accent: 262 83% 58%;
+    /* Purple accent */
+    --accent-foreground: 0 0% 100%;
+    --accent-edge: 262 83% 40%;
+
+    /* Utility & borders */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-edge: 0 84.2% 45%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 199 89% 48%;
+
+    /* Charts */
+    --chart-1: 199 89% 48%;
+    --chart-2: 172 66% 50%;
+    --chart-3: 262 83% 58%;
+    --chart-4: 210 50% 96%;
+    --chart-5: 210 50% 98%;
+
+    /* Sidebar */
+    --sidebar: 210 50% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 262 83% 58%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 199 89% 48%;
+  }
+
+  /* Rose Theme - Pink/Warm tones */
+  .theme-rose {
+    /* Backgrounds */
+    --background: 355 100% 99%;
+    /* Very light pink */
+    --card: 350 100% 98%;
+    --popover: 350 100% 98%;
+
+    /* Text */
+    --foreground: 355 40% 10%;
+    /* Dark red/brown */
+    --card-foreground: 355 40% 10%;
+    --popover-foreground: 355 40% 10%;
+
+    /* Brand colors */
+    --primary: 346 84% 61%;
+    /* Rose */
+    --primary-foreground: 0 0% 100%;
+    --primary-edge: 346 84% 45%;
+
+    --secondary: 14 90% 65%;
+    /* Coral */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-edge: 14 90% 45%;
+
+    --accent: 280 60% 60%;
+    /* Soft Purple */
+    --accent-foreground: 0 0% 100%;
+    --accent-edge: 280 60% 45%;
+
+    /* Utility & borders */
+    --muted: 350 40% 96%;
+    --muted-foreground: 355 10% 45%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-edge: 0 84.2% 45%;
+
+    --border: 350 30% 90%;
+    --input: 350 30% 90%;
+    --ring: 346 84% 61%;
+
+    /* Charts */
+    --chart-1: 346 84% 61%;
+    --chart-2: 14 90% 65%;
+    --chart-3: 280 60% 60%;
+    --chart-4: 350 100% 98%;
+    --chart-5: 355 100% 99%;
+
+    /* Sidebar */
+    --sidebar: 355 100% 99%;
+    --sidebar-foreground: 355 40% 10%;
+    --sidebar-primary: 346 84% 61%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 280 60% 60%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 350 30% 90%;
+    --sidebar-ring: 346 84% 61%;
+  }
+
+  .dark:root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
