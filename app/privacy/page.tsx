@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="container max-w-3xl py-12 mx-auto">
+    <div className="container max-w-3xl py-12 mx-auto px-4">
       <div className="text-center mb-10">
         <H1 className="mb-4">Privacy Policy</H1>
         <Muted>Last Updated: January 8, 2026</Muted>
