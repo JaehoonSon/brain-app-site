@@ -12,9 +12,9 @@ export default function PrivacyPolicy() {
       <div className="space-y-8">
         <section>
           <P>
-            This Privacy Policy describes how BrainApp (“we,” “us,” or “our”)
+            This Privacy Policy describes how Lobe (“we,” “us,” or “our”)
             collects, uses, stores, and protects information when you use the
-            BrainApp mobile application (“App”).
+            Lobe mobile application (“App”).
           </P>
 
           <P>
@@ -122,7 +122,7 @@ export default function PrivacyPolicy() {
             <List className="mt-2 ml-10">
               <li>With service providers necessary to operate the App</li>
               <li>To comply with legal obligations</li>
-              <li>To protect the rights, safety, or integrity of BrainApp</li>
+              <li>To protect the rights, safety, or integrity of Lobe</li>
             </List>
           </List>
         </section>
@@ -162,7 +162,7 @@ export default function PrivacyPolicy() {
         <section>
           <H2>9. Children’s Privacy</H2>
           <List>
-            <li>BrainApp is intended for users 13 years of age and older.</li>
+            <li>Lobe is intended for users 13 years of age and older.</li>
             <li>
               We do not knowingly retain personal data from users under 13.
             </li>
@@ -185,8 +185,8 @@ export default function PrivacyPolicy() {
         <section>
           <H2>11. International Users</H2>
           <P>
-            BrainApp is available globally. If you access the App outside the
-            United States, you consent to the transfer and processing of your
+            Lobe is available globally. If you access the App outside the United
+            States, you consent to the transfer and processing of your
             information in the U.S. or other jurisdictions where our service
             providers operate.
           </P>

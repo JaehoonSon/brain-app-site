@@ -13,19 +13,19 @@ export default function TermsOfService() {
         <section>
           <P>
             These Terms of Service (“Terms”) govern your access to and use of
-            the BrainApp mobile application (“App”), operated by an individual
-            based in Delaware, United States (“we,” “us,” or “our”).
+            the Lobe mobile application (“App”), operated by an individual based
+            in Delaware, United States (“we,” “us,” or “our”).
           </P>
 
           <P>
-            By downloading, accessing, or using BrainApp, you agree to be bound
-            by these Terms. If you do not agree, do not use the App.
+            By downloading, accessing, or using Lobe, you agree to be bound by
+            these Terms. If you do not agree, do not use the App.
           </P>
         </section>
 
         <section>
           <H2>1. Eligibility</H2>
-          <P>BrainApp is intended for users 13 years of age or older.</P>
+          <P>Lobe is intended for users 13 years of age or older.</P>
           <P>
             By using the App, you represent that you meet this age requirement.
           </P>
@@ -60,7 +60,7 @@ export default function TermsOfService() {
           <div className="mt-4">
             <h3 className="font-semibold text-lg mb-2">Subscription Model</h3>
             <List>
-              <li>BrainApp is a premium app.</li>
+              <li>Lobe is a premium app.</li>
               <li>
                 Subscriptions are processed through the Apple App Store, with
                 billing managed via RevenueCat.
@@ -117,8 +117,8 @@ export default function TermsOfService() {
           <P>You agree not to:</P>
           <List>
             <li>
-              Reverse engineer, decompile, or attempt to access BrainApp’s
-              source code
+              Reverse engineer, decompile, or attempt to access Lobe’s source
+              code
             </li>
             <li>Circumvent security features or technical protections</li>
             <li>Use automated systems (bots, scrapers) to access the App</li>
@@ -157,7 +157,7 @@ export default function TermsOfService() {
 
         <section>
           <H2>6. User Data & Privacy</H2>
-          <P>Your use of BrainApp is also governed by our Privacy Policy.</P>
+          <P>Your use of Lobe is also governed by our Privacy Policy.</P>
 
           <div className="mt-4">
             <h3 className="font-semibold text-lg mb-2">Data Collected</h3>
@@ -210,18 +210,16 @@ export default function TermsOfService() {
           <H2>8. Educational & Non-Medical Disclaimer</H2>
           <List>
             <li>
-              BrainApp is provided for entertainment and educational purposes
-              only.
+              Lobe is provided for entertainment and educational purposes only.
             </li>
-            <li>BrainApp is not a medical device</li>
+            <li>Lobe is not a medical device</li>
             <li>It does not provide diagnosis, treatment, or medical advice</li>
             <li>
               No claims are made regarding cognitive improvement, mental health
               outcomes, or clinical effectiveness
             </li>
             <li>
-              Do not use BrainApp as a substitute for professional medical
-              advice
+              Do not use Lobe as a substitute for professional medical advice
             </li>
           </List>
         </section>
@@ -241,7 +239,7 @@ export default function TermsOfService() {
         <section>
           <H2>10. Termination</H2>
           <List>
-            <li>You may stop using BrainApp at any time.</li>
+            <li>You may stop using Lobe at any time.</li>
             <li>
               Upon account deletion or termination, user data will be deleted,
               except where retention is required by law.
@@ -254,7 +252,7 @@ export default function TermsOfService() {
 
         <section>
           <H2>11. Disclaimer of Warranties</H2>
-          <P>BrainApp is provided “as is” and “as available.”</P>
+          <P>Lobe is provided “as is” and “as available.”</P>
           <P>We disclaim all warranties, including but not limited to:</P>
           <List>
             <li>Accuracy of performance metrics</li>
@@ -321,7 +319,7 @@ export default function TermsOfService() {
         <section>
           <H2>16. International Users</H2>
           <List>
-            <li>BrainApp is available to users outside the United States.</li>
+            <li>Lobe is available to users outside the United States.</li>
             <li>You are responsible for compliance with local laws.</li>
           </List>
         </section>

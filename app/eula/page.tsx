@@ -13,9 +13,9 @@ export default function EULA() {
         <section>
           <P>
             This End User License Agreement ("EULA") is a legal agreement
-            between you ("User") and the operator of BrainApp, an individual
-            based in Delaware, United States ("Licensor," "we," "us," or "our"),
-            governing your use of the BrainApp mobile application ("App").
+            between you ("User") and the operator of Lobe, an individual based
+            in Delaware, United States ("Licensor," "we," "us," or "our"),
+            governing your use of the Lobe mobile application ("App").
           </P>
 
           <P>
@@ -150,8 +150,7 @@ export default function EULA() {
         <section>
           <H2>8. No Medical or Professional Use</H2>
           <P>
-            BrainApp is provided for entertainment and educational purposes
-            only.
+            Lobe is provided for entertainment and educational purposes only.
           </P>
           <List>
             <li>The App is not a medical device</li>
