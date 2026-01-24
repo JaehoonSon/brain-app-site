@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { siteConfig } from "@/lib/config";
 
 const GAMES = [
   {
@@ -117,12 +119,16 @@ export function GamesShowcaseSection() {
               and boost creativity. From memory challenges to language games,
               train your brain your way.
             </p>
-
             {/* CTA Button (Optional based on design) */}
             <div className="mt-8">
-              <button className="px-8 py-4 bg-white text-zinc-900 rounded-full font-bold text-lg hover:bg-zinc-200 transition-colors shadow-lg shadow-white/5">
+              <Link
+                href={siteConfig.appStoreLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-4 bg-white text-zinc-900 rounded-full font-bold text-lg hover:bg-zinc-200 transition-colors shadow-lg shadow-white/5"
+              >
                 Start Training
-              </button>
+              </Link>
             </div>
           </motion.div>
         </div>

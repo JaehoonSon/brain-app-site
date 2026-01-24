@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { siteConfig } from "@/lib/config";
 
 export function HeroSection() {
   return (
@@ -37,7 +38,7 @@ export function HeroSection() {
 
         {/* Download Button */}
         <Link
-          href="https://apps.apple.com/us/app/lobe-brain-training-games/id6757370720"
+          href={siteConfig.appStoreLink}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 inline-flex items-center gap-3 px-8 py-4 bg-foreground text-primary-foreground font-bold text-lg md:text-xl rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500"
