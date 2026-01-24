@@ -4,7 +4,7 @@ import { LegalPageRenderer, LegalDict } from "@/components/legal-page-renderer";
 export default async function Privacy({
   params,
 }: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
   const dict = await getDictionary(lang as Locale);
