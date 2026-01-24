@@ -3,9 +3,7 @@ import { cn } from "@/lib/utils";
 
 export function Footer({ className }: { className?: string }) {
   return (
-    <footer
-      className={cn("w-full py-6 md:px-8 md:py-0 border-t mt-auto", className)}
-    >
+    <footer className={cn("w-full py-6 md:px-8 md:py-0 mt-auto", className)}>
       <div className="container mx-auto flex flex-col items-center gap-4 md:h-24 md:flex-row md:justify-between ">
         <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by{" "}
