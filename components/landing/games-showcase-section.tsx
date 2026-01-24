@@ -27,16 +27,27 @@ const GAMES = [
   },
 ];
 
-export function GamesShowcaseSection() {
+export function GamesShowcaseSection({ dict }: { dict?: any }) {
+  // Update game names based on dictionary if available
+  const games = GAMES.map((game) => {
+    let name = game.alt;
+    if (dict?.games) {
+      if (game.id === "word-game") name = dict.games.wordGame;
+      if (game.id === "memory-matrix") name = dict.games.memoryMatrix;
+      if (game.id === "stroop-clash") name = dict.games.stroopClash;
+    }
+    return { ...game, alt: name };
+  });
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-zinc-900 py-20 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-24">
           {/* VISUAL: Stacked Game Cards */}
           <div className="relative w-full max-w-[320px] h-[320px] md:max-w-[400px] md:h-[400px] flex items-center justify-center perspective-1000">
-            {GAMES.map((game, idx) => {
+            {games.map((game, idx) => {
               // Programmatically determine position relative to the center
-              const totalItems = GAMES.length;
+              const totalItems = games.length;
               const centerIdx = Math.floor(totalItems / 2);
               const distFromCenter = idx - centerIdx; // -1, 0, 1
 
@@ -108,16 +119,12 @@ export function GamesShowcaseSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           >
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 tracking-tight leading-[1.1]">
-              Stay sharp <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-200">
-                with puzzles
-              </span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 tracking-tight leading-[1.1] whitespace-pre-line">
+              {dict?.title || "Stay sharp\nwith puzzles"}
             </h2>
             <p className="text-lg md:text-xl text-zinc-400 leading-relaxed">
-              Solve daily puzzles designed to increase problem-solving skills
-              and boost creativity. From memory challenges to language games,
-              train your brain your way.
+              {dict?.description ||
+                "Solve daily puzzles designed to increase problem-solving skills and boost creativity. From memory challenges to language games, train your brain your way."}
             </p>
             {/* CTA Button (Optional based on design) */}
             <div className="mt-8">
@@ -127,7 +134,7 @@ export function GamesShowcaseSection() {
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-white text-zinc-900 rounded-full font-bold text-lg hover:bg-zinc-200 transition-colors shadow-lg shadow-white/5"
               >
-                Start Training
+                {dict?.cta || "Start Training"}
               </Link>
             </div>
           </motion.div>

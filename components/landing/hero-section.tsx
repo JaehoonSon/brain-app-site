@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { siteConfig } from "@/lib/config";
 
-export function HeroSection() {
+export function HeroSection({ dict }: { dict?: any }) {
   return (
     <motion.section
       className="min-h-screen flex items-center justify-center bg-primary"
@@ -28,12 +28,12 @@ export function HeroSection() {
 
         {/* App Name */}
         <h2 className="text-3xl font-extrabold md:text-3xl lg:text-4xl text-foreground animate-in fade-in slide-in-from-bottom-2 duration-700 delay-150">
-          Lobe
+          {dict?.appName || "Lobe"}
         </h2>
 
         {/* Clear CTA Headline */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground max-w-3xl leading-tight animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-          Brain training personalized for you
+          {dict?.headline || "Brain training personalized for you"}
         </h1>
 
         {/* Download Button */}
@@ -43,7 +43,7 @@ export function HeroSection() {
           rel="noopener noreferrer"
           className="mt-4 inline-flex items-center gap-3 px-8 py-4 bg-foreground text-primary-foreground font-bold text-lg md:text-xl rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500"
         >
-          Download Now
+          {dict?.cta || "Download Now"}
         </Link>
       </div>
     </motion.section>

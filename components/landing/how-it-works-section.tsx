@@ -38,7 +38,14 @@ const FLOATING_ITEMS = [
   },
 ];
 
-export function HowItWorksSection() {
+interface HowItWorksSectionProps {
+  dict?: {
+    title: string;
+    subtitle: string;
+  };
+}
+
+export function HowItWorksSection({ dict }: HowItWorksSectionProps) {
   return (
     <section className="relative h-screen flex items-center justify-center bg-secondary overflow-hidden">
       {/* CSS for float animation - keeping this for the continuous float */}
@@ -95,10 +102,11 @@ export function HowItWorksSection() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <h2 className="text-5xl md:text-7xl font-black text-foreground mb-6 tracking-tighter">
-          How it works
+          {dict?.title || "How it works"}
         </h2>
         <p className="text-xl md:text-3xl font-medium text-foreground leading-tight">
-          Lobe strengthens your mind through science-backed brain games.
+          {dict?.subtitle ||
+            "Lobe strengthens your mind through science-backed brain games."}
         </p>
 
         {/* Small badge/indicator below */}

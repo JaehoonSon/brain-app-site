@@ -1,0 +1,19 @@
+import { getDictionary, Locale } from "../../utils/get-dictionary";
+import { LegalPageRenderer, LegalDict } from "@/components/legal-page-renderer";
+
+export default async function Privacy({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return (
+    <LegalPageRenderer
+      dict={dict.legal.privacy as LegalDict}
+      footerDict={dict.footer}
+      lang={lang}
+    />
+  );
+}

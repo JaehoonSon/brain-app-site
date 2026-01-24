@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito, Playfair_Display, Source_Code_Pro } from "next/font/google"; // Import compatible fonts
-import "./globals.css";
+import "../globals.css";
 import { cn } from "@/lib/utils";
 
 const nunito = Nunito({
@@ -34,19 +34,26 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
-export default function RootLayout({
+export async function generateStaticParams() {
+  return [{ lang: "en" }, { lang: "es" }];
+}
+
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: { lang: string };
 }>) {
+  const { lang } = await params;
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           nunito.variable,
           playfair.variable,
-          sourceCodePro.variable
+          sourceCodePro.variable,
         )}
       >
         {children}

@@ -1,0 +1,854 @@
+{
+  "common": {
+    "lastUpdated": "Last Updated: ",
+    "contactEmail": "son.jaehoon0826@gmail.com",
+    "contactLabel": "Email: ",
+    "weAreHereToHelp": "We're here to help"
+  },
+  "landing": {
+    "hero": {
+      "appName": "Lobe",
+      "headline": "Brain training personalized for you",
+      "cta": "Download Now"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Lobe strengthens your mind through science-backed brain games."
+    },
+    "gamesShowcase": {
+      "title": "Stay sharp\nwith puzzles",
+      "description": "Solve daily puzzles designed to increase problem-solving skills and boost creativity. From memory challenges to language games, train your brain your way.",
+      "cta": "Start Training",
+      "games": {
+        "wordGame": "Word Game",
+        "memoryMatrix": "Memory Matrix",
+        "stroopClash": "Stroop Clash"
+      }
+    }
+  },
+  "footer": {
+    "appName": "Lobe",
+    "builtBy": "Built by ",
+    "links": {
+      "home": "Home",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "eula": "EULA"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "intro": "Welcome to Lobe Support. If you have questions, need assistance, or want to report an issue, you've come to the right place.",
+    "contact": {
+      "title": "Contact Us",
+      "description": "For any support inquiries, please reach out to us via email:",
+      "responseTime": "We aim to respond to all inquiries within 24-48 hours."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How do I get started with Lobe?",
+          "answer": "When you first open Lobe, you'll be guided through a simple onboarding process. This will help you set up your profile and introduce you to the app's features. Just follow the on-screen instructions to get started."
+        },
+        {
+          "question": "How do I delete my account?",
+          "answer": "You can delete your account in two ways:",
+          "list": [
+            "From the app: Navigate to your profile settings and select the option to delete your account.",
+            "Contact us: Send an email requesting account deletion. Please include the email address associated with your account."
+          ],
+          "note": "Once your account is deleted, all personal data associated with it will be permanently removed, except where retention is required by law."
+        },
+        {
+          "question": "How do I report a bug or issue?",
+          "answer": "If you encounter a bug or experience issues with the app, please email us with a description of the problem, the device you're using, and any steps to reproduce the issue. Screenshots are also helpful."
+        },
+        {
+          "question": "How do I manage my subscription?",
+          "answer": "Subscriptions are managed through the App Store. To view, modify, or cancel your subscription:",
+          "list": [
+            "Open the Settings app on your device",
+            "Tap your name at the top",
+            "Tap \"Subscriptions\"",
+            "Select Lobe to manage your subscription"
+          ]
+        }
+      ]
+    },
+    "resources": {
+      "title": "Additional Resources",
+      "items": [
+        {
+          "label": "Privacy Policy",
+          "desc": " – Learn how we handle your data",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms of Use",
+          "desc": " – Review our terms and conditions",
+          "href": "/terms"
+        },
+        {
+          "label": "End User License Agreement",
+          "desc": " – Read our EULA",
+          "href": "/eula"
+        }
+      ]
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "We value your feedback! If you have suggestions for improving Lobe or ideas for new features, we'd love to hear from you. Send your thoughts to "
+    }
+  },
+  "legal": {
+    "eula": {
+      "title": "End User License Agreement",
+      "lastUpdated": "January 8, 2026",
+      "intro": [
+        "This End User License Agreement (\"EULA\") is a legal agreement between you (\"User\") and the operator of Lobe, an individual based in Delaware, United States (\"Licensor,\" \"we,\" \"us,\" or \"our\"), governing your use of the Lobe mobile application (\"App\").",
+        "By downloading, installing, or using the App, you agree to be bound by this EULA. If you do not agree, do not use the App."
+      ],
+      "sections": [
+        {
+          "title": "1. License Grant",
+          "content": [
+            {
+              "type": "p",
+              "text": "We grant you a limited, non-exclusive, non-transferable, revocable license to download and use the App for personal, non-commercial purposes on Apple-branded devices that you own or control, in accordance with Apple's App Store Terms of Service."
+            },
+            {
+              "type": "p",
+              "text": "All rights not expressly granted to you are reserved by the Licensor."
+            }
+          ]
+        },
+        {
+          "title": "2. Ownership",
+          "content": [
+            { "type": "p", "text": "The App, including but not limited to:" },
+            {
+              "type": "list",
+              "items": [
+                "Software",
+                "Games",
+                "Scoring systems",
+                "Algorithms",
+                "Visual design",
+                "User interface",
+                "Trademarks and logos"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "is owned by the Licensor and protected by intellectual property laws."
+            },
+            {
+              "type": "p",
+              "text": "This EULA does not transfer ownership of the App or any intellectual property to you."
+            }
+          ]
+        },
+        {
+          "title": "3. Restrictions",
+          "content": [
+            { "type": "p", "text": "You agree not to:" },
+            {
+              "type": "list",
+              "items": [
+                "Copy, modify, or create derivative works of the App",
+                "Reverse engineer, decompile, or disassemble the App",
+                "Attempt to access source code or internal APIs",
+                "Circumvent technical protections or security measures",
+                "Rent, lease, sell, sublicense, or redistribute the App",
+                "Use the App for unlawful purposes"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Any attempt to do so is a violation of this EULA and may result in termination."
+            }
+          ]
+        },
+        {
+          "title": "4. Updates & Modifications",
+          "content": [
+            { "type": "p", "text": "We may:" },
+            {
+              "type": "list",
+              "items": [
+                "Modify or update the App",
+                "Add or remove features or games",
+                "Change scoring or functionality",
+                "Discontinue the App at any time"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "We are not obligated to provide updates or continued availability."
+            }
+          ]
+        },
+        {
+          "title": "5. Termination",
+          "content": [
+            {
+              "type": "p",
+              "text": "This license is effective until terminated."
+            },
+            {
+              "type": "list",
+              "items": [
+                "You may terminate this EULA at any time by deleting the App.",
+                "We may terminate this EULA immediately if you violate any provision.",
+                "Upon termination, you must stop using the App and delete all copies."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. Disclaimer of Warranties",
+          "content": [
+            {
+              "type": "p",
+              "text": "THE APP IS PROVIDED \"AS IS\" AND \"AS AVAILABLE.\""
+            },
+            {
+              "type": "p",
+              "text": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MERCHANTABILITY",
+                "FITNESS FOR A PARTICULAR PURPOSE",
+                "ACCURACY OR RELIABILITY OF RESULTS",
+                "NON-INFRINGEMENT"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR MEET YOUR EXPECTATIONS."
+            }
+          ]
+        },
+        {
+          "title": "7. Limitation of Liability",
+          "content": [
+            { "type": "p", "text": "TO THE MAXIMUM EXTENT PERMITTED BY LAW:" },
+            {
+              "type": "list",
+              "items": [
+                "WE ARE NOT LIABLE FOR DATA LOSS, PERFORMANCE INACCURACIES, OR THIRD-PARTY FAILURES",
+                "WE ARE NOT LIABLE FOR INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES",
+                "OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID BY YOU FOR THE APP, IF ANY, IN THE PRECEDING 12 MONTHS"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8. No Medical or Professional Use",
+          "content": [
+            {
+              "type": "p",
+              "text": "Lobe is provided for entertainment and educational purposes only."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The App is not a medical device",
+                "It does not provide diagnosis, treatment, or medical advice",
+                "No claims are made regarding cognitive or health outcomes"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Do not rely on the App for medical or professional decisions."
+            }
+          ]
+        },
+        {
+          "title": "9. Third-Party Platforms (Apple)",
+          "content": [
+            {
+              "type": "p",
+              "text": "This EULA is between you and the Licensor, not Apple."
+            },
+            { "type": "p", "text": "Apple:" },
+            {
+              "type": "list",
+              "items": [
+                "Is not responsible for the App",
+                "Has no obligation to provide support",
+                "Is not liable for claims related to the App"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "If the App fails to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any), but Apple has no further obligation."
+            },
+            {
+              "type": "p",
+              "text": "Apple and its subsidiaries are third-party beneficiaries of this EULA and may enforce it against you."
+            }
+          ]
+        },
+        {
+          "title": "10. Governing Law",
+          "content": [
+            {
+              "type": "p",
+              "text": "This EULA is governed by the laws of the United States, without regard to conflict-of-law principles."
+            }
+          ]
+        },
+        {
+          "title": "11. Severability",
+          "content": [
+            {
+              "type": "p",
+              "text": "If any provision of this EULA is held unenforceable, the remaining provisions shall remain in full force and effect."
+            }
+          ]
+        },
+        {
+          "title": "12. Contact",
+          "content": [
+            { "type": "p", "text": "For questions regarding this EULA:" }
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "January 8, 2026",
+      "intro": [
+        "This Privacy Policy describes how Lobe (“we,” “us,” or “our”) collects, uses, stores, and protects information when you use the Lobe mobile application (“App”).",
+        "By using the App, you agree to the collection and use of information as described in this Privacy Policy."
+      ],
+      "sections": [
+        {
+          "title": "1. Information We Collect",
+          "subsections": [
+            {
+              "title": "Information You Provide",
+              "list": [
+                "Email address",
+                "Name",
+                "Date of birth",
+                "Account-related information",
+                "Communications with support"
+              ]
+            },
+            {
+              "title": "Information Collected Automatically",
+              "list": [
+                "Gameplay performance and scores",
+                "App usage data and session activity",
+                "Device identifiers",
+                "Analytics data",
+                "Crash reports (via Apple)"
+              ],
+              "note": "We do not intentionally collect IP addresses, though limited technical data may be processed automatically by platform providers."
+            }
+          ]
+        },
+        {
+          "title": "2. Cookies & Tracking Technologies",
+          "content": [
+            {
+              "type": "p",
+              "text": "We may use cookies or similar tracking technologies to:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Understand app usage",
+                "Improve performance",
+                "Analyze trends"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "These technologies are used strictly for analytics and functionality, not advertising."
+            }
+          ]
+        },
+        {
+          "title": "3. How We Use Your Information",
+          "content": [
+            { "type": "p", "text": "We use collected information to:" },
+            {
+              "type": "list",
+              "items": [
+                "Provide and operate the App",
+                "Track gameplay progress and performance",
+                "Improve games and features",
+                "Monitor app stability and crashes",
+                "Communicate service-related updates",
+                "Provide customer support"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Analytics & Third-Party Services",
+          "content": [
+            {
+              "type": "p",
+              "text": "We use trusted third-party service providers, including:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Apple App Analytics",
+                "RevenueCat",
+                "Supabase (data storage and backend infrastructure)"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "These providers process data solely on our behalf and under confidentiality obligations."
+            },
+            {
+              "type": "p",
+              "text": "We do not use advertising tracking (including IDFA) and do not display third-party ads."
+            }
+          ]
+        },
+        {
+          "title": "5. Data Ownership & Aggregation",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "You retain ownership of your personal data.",
+                "We may aggregate and anonymize data for analytics, product improvement, or potential research purposes.",
+                "Aggregated data does not identify individual users."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. Data Sharing",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "We do not sell personal data.",
+                "We may share data only:",
+                "With service providers necessary to operate the App",
+                "To comply with legal obligations",
+                "To protect the rights, safety, or integrity of Lobe"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. Data Storage & Retention",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Data is stored in the United States.",
+                "Personal data is retained unless otherwise specified.",
+                "Upon account deletion, personal data is deleted, except where retention is required by law."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8. Your Rights",
+          "content": [
+            {
+              "type": "p",
+              "text": "Depending on your location, you may have the right to:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Access your personal data",
+                "Correct inaccurate information",
+                "Request deletion of your data",
+                "Request data portability",
+                "Withdraw consent where applicable"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "We will respond to verified requests within 30 days, as required by law."
+            },
+            {
+              "type": "p",
+              "text": "Requests can be submitted by contacting us at the email listed below."
+            }
+          ]
+        },
+        {
+          "title": "9. Children’s Privacy",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Lobe is intended for users 13 years of age and older.",
+                "We do not knowingly retain personal data from users under 13.",
+                "If data from a user under 13 is discovered, it will be deleted promptly."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "10. Data Security",
+          "content": [
+            {
+              "type": "p",
+              "text": "We implement reasonable technical and organizational safeguards to protect your information. However, no system is completely secure, and we cannot guarantee absolute security."
+            }
+          ]
+        },
+        {
+          "title": "11. International Users",
+          "content": [
+            {
+              "type": "p",
+              "text": "Lobe is available globally. If you access the App outside the United States, you consent to the transfer and processing of your information in the U.S. or other jurisdictions where our service providers operate."
+            },
+            {
+              "type": "p",
+              "text": "This policy is intended to comply with applicable privacy laws, including GDPR and CCPA/CPRA, where required."
+            }
+          ]
+        },
+        {
+          "title": "12. Changes to This Privacy Policy",
+          "content": [
+            {
+              "type": "p",
+              "text": "We may update this Privacy Policy from time to time."
+            },
+            {
+              "type": "p",
+              "text": "Material changes will be communicated through the App or by email."
+            }
+          ]
+        },
+        {
+          "title": "13. Contact",
+          "content": [
+            {
+              "type": "p",
+              "text": "If you have questions, concerns, or requests regarding privacy:"
+            }
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Jan 8, 2026",
+      "intro": [
+        "These Terms of Service (“Terms”) govern your access to and use of the Lobe mobile application (“App”), operated by an individual based in Delaware, United States (“we,” “us,” or “our”).",
+        "By downloading, accessing, or using Lobe, you agree to be bound by these Terms. If you do not agree, do not use the App."
+      ],
+      "sections": [
+        {
+          "title": "1. Eligibility",
+          "content": [
+            {
+              "type": "p",
+              "text": "Lobe is intended for users 13 years of age or older."
+            },
+            {
+              "type": "p",
+              "text": "By using the App, you represent that you meet this age requirement."
+            },
+            {
+              "type": "p",
+              "text": "If you are under the age of 18, you represent that you have permission from a parent or legal guardian."
+            }
+          ]
+        },
+        {
+          "title": "2. Account Registration & Access",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "An account may be required to access certain features.",
+                "You are responsible for maintaining the confidentiality of your account credentials.",
+                "You may delete your account at any time using the in-app account deletion feature.",
+                "We reserve the right to suspend or terminate accounts at our sole discretion, including for violations of these Terms or misuse of the App."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3. Subscriptions, Billing & Payments",
+          "subsections": [
+            {
+              "title": "Subscription Model",
+              "list": [
+                "Lobe is a premium app.",
+                "Subscriptions are processed through the Apple App Store, with billing managed via RevenueCat.",
+                "Available plans may include weekly, monthly, annual, or lifetime subscriptions."
+              ]
+            },
+            {
+              "title": "Free Trials & Auto-Renewal",
+              "list": [
+                "Free trials may be offered at our discretion.",
+                "Subscriptions automatically renew unless canceled at least 24 hours before the end of the current billing period.",
+                "Subscription management and cancellation are handled through your Apple ID settings."
+              ]
+            },
+            {
+              "title": "Refunds",
+              "list": [
+                "Refunds beyond Apple’s standard policies may be granted under reasonable circumstances, at our discretion.",
+                "Apple controls final refund eligibility and processing."
+              ]
+            },
+            {
+              "title": "Pricing Changes",
+              "list": [
+                "Pricing and subscription terms may change at any time.",
+                "Changes will not affect active subscriptions until the next renewal period."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Acceptable Use",
+          "content": [
+            { "type": "p", "text": "You agree not to:" },
+            {
+              "type": "list",
+              "items": [
+                "Reverse engineer, decompile, or attempt to access Lobe’s source code",
+                "Circumvent security features or technical protections",
+                "Use automated systems (bots, scrapers) to access the App",
+                "Interfere with performance tracking, scoring, or analytics systems",
+                "Misuse the App in a way that violates applicable law"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. Intellectual Property",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "All games, scoring systems, algorithms, UI/UX, and underlying technology are proprietary and owned by us.",
+                "You are granted a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes.",
+                "You may not reproduce, redistribute, or exploit App content without permission."
+              ]
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Feedback",
+              "content": "Any feedback or suggestions you provide may be used by us without restriction or compensation."
+            }
+          ]
+        },
+        {
+          "title": "6. User Data & Privacy",
+          "content": [
+            {
+              "type": "p",
+              "text": "Your use of Lobe is also governed by our Privacy Policy."
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Data Collected",
+              "content": "We may collect:",
+              "list": [
+                "Email address",
+                "Name",
+                "Birthday",
+                "Gameplay performance and scores",
+                "Device identifiers",
+                "Usage analytics"
+              ]
+            },
+            {
+              "title": "Data Ownership",
+              "list": [
+                "You retain ownership of your personal data.",
+                "We may store data unless otherwise specified.",
+                "We may aggregate and anonymize data for analytics and product improvement."
+              ]
+            },
+            {
+              "title": "Third-Party Services",
+              "list": [
+                "Data may be processed by trusted service providers such as Supabase and analytics tools.",
+                "We do not sell personal data."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. Data Sharing & Export",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "You may share your results publicly at your discretion.",
+                "You may request an export of your data, subject to verification."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8. Educational & Non-Medical Disclaimer",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Lobe is provided for entertainment and educational purposes only.",
+                "Lobe is not a medical device",
+                "It does not provide diagnosis, treatment, or medical advice",
+                "No claims are made regarding cognitive improvement, mental health outcomes, or clinical effectiveness",
+                "Do not use Lobe as a substitute for professional medical advice"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "9. Availability & Modifications",
+          "content": [
+            { "type": "p", "text": "We reserve the right to:" },
+            {
+              "type": "list",
+              "items": [
+                "Modify features",
+                "Remove games",
+                "Adjust scoring models",
+                "Discontinue the App at any time"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "We do not guarantee uninterrupted or error-free availability."
+            }
+          ]
+        },
+        {
+          "title": "10. Termination",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "You may stop using Lobe at any time.",
+                "Upon account deletion or termination, user data will be deleted, except where retention is required by law.",
+                "No provisions survive termination except those required by law."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "11. Disclaimer of Warranties",
+          "content": [
+            {
+              "type": "p",
+              "text": "Lobe is provided “as is” and “as available.”"
+            },
+            {
+              "type": "p",
+              "text": "We disclaim all warranties, including but not limited to:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Accuracy of performance metrics",
+                "Data reliability or completeness",
+                "Fitness for a particular purpose",
+                "Availability or uptime"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "12. Limitation of Liability",
+          "content": [
+            { "type": "p", "text": "To the maximum extent permitted by law:" },
+            {
+              "type": "list",
+              "items": [
+                "We are not liable for data loss, performance inaccuracies, or third-party failures",
+                "We are not responsible for misuse of the App",
+                "Our total liability is limited to the amount paid by you, if any, in the previous 12 months"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "13. Indemnification",
+          "content": [
+            {
+              "type": "p",
+              "text": "You agree to indemnify and hold us harmless from claims arising from:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Your misuse of the App",
+                "Violation of these Terms",
+                "Violation of applicable law"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "14. Governing Law & Disputes",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "These Terms are governed by the laws of the United States.",
+                "Disputes may be brought in small claims court, where applicable.",
+                "You waive the right to participate in class actions or class arbitration."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "15. Communications",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "We may send emails related to product updates, service notices, and promotions.",
+                "You may opt out of promotional emails at any time."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "16. International Users",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Lobe is available to users outside the United States.",
+                "You are responsible for compliance with local laws."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "17. Contact",
+          "content": [
+            {
+              "type": "p",
+              "text": "For legal notices or questions regarding these Terms:"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
