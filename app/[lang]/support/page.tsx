@@ -1,4 +1,5 @@
-import { getDictionary, Locale } from "../../utils/get-dictionary";
+import { getDictionary } from "../../utils/get-dictionary";
+import { Locale } from "@/lib/locales";
 import { H1, H2, P, List, Muted } from "@/components/typography";
 import { Footer } from "@/components/footer";
 import Link from "next/link";

@@ -4,7 +4,8 @@ import {
   HowItWorksSection,
   GamesShowcaseSection,
 } from "@/components/landing";
-import { getDictionary, Locale } from "../utils/get-dictionary";
+import { getDictionary } from "../utils/get-dictionary";
+import { Locale } from "@/lib/locales";
 
 export default async function Home({
   params,

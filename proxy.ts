@@ -2,9 +2,23 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
+import { locales } from "@/lib/locales";
 
-const locales = ["en", "es", "zh-CN"];
 const defaultLocale = "en";
+const localeLookup = new Set(locales.map((locale) => locale.toLowerCase()));
+
+function pathnameStartsWithLocale(pathname: string): boolean {
+  if (!pathname) return false;
+  const [, segment] = pathname.split("/");
+  if (!segment) return false;
+
+  try {
+    const normalized = decodeURIComponent(segment).toLowerCase();
+    return localeLookup.has(normalized);
+  } catch {
+    return false;
+  }
+}
 
 function getLocale(request: NextRequest): string {
   const negotiatorHeaders: Record<string, string> = {};
@@ -19,15 +33,17 @@ function getLocale(request: NextRequest): string {
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
-  );
-
-  if (pathnameHasLocale) return;
+  if (pathnameStartsWithLocale(pathname)) return;
 
   // Redirect if there is no locale
   const locale = getLocale(request);
-  request.nextUrl.pathname = `/${locale}${pathname}`;
+  const suffix =
+    pathname === "/"
+      ? ""
+      : pathname.startsWith("/")
+        ? pathname
+        : `/${pathname}`;
+  request.nextUrl.pathname = `/${locale}${suffix}`;
   // e.g. incoming request is /products
   // The new URL is now /en-US/products
   return NextResponse.redirect(request.nextUrl);

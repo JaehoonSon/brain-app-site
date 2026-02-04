@@ -1,4 +1,5 @@
-import { getDictionary, Locale } from "../../utils/get-dictionary";
+import { getDictionary } from "../../utils/get-dictionary";
+import { Locale } from "@/lib/locales";
 import { LegalPageRenderer, LegalDict } from "@/components/legal-page-renderer";
 
 export default async function Privacy({

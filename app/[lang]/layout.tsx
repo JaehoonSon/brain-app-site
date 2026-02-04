@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Playfair_Display, Source_Code_Pro } from "next/font/google"; // Import compatible fonts
 import "../globals.css";
 import { cn } from "@/lib/utils";
+import { locales } from "@/lib/locales";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
 };
 
 export async function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "es" }];
+  return locales.map((lang) => ({ lang }));
 }
 
 export default async function RootLayout({
