@@ -10,7 +10,12 @@ const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   ja: () => import("../dictionaries/ja.json").then((module) => module.default),
   "zh-Hans": () =>
     import("../dictionaries/zh-Hans.json").then((module) => module.default),
-  pt: () => import("../dictionaries/pt.json").then((module) => module.default),
+  pt: () =>
+    import("../dictionaries/pt-BR.json").then((module) => module.default),
+  "pt-BR": () =>
+    import("../dictionaries/pt-BR.json").then((module) => module.default),
+  "pt-PT": () =>
+    import("../dictionaries/pt-PT.json").then((module) => module.default),
   de: () => import("../dictionaries/de.json").then((module) => module.default),
   fr: () => import("../dictionaries/fr.json").then((module) => module.default),
   hi: () => import("../dictionaries/hi.json").then((module) => module.default),
